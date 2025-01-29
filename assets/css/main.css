@@ -33,23 +33,6 @@ body {
 	line-height: 1;
 }
 
-#slidercontainer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-  	align-items: center;
-}
-
-#slider {
-	position: relative;
-	height: 500px;
-	width: 300px;
-}
-
-#slider img {
-	position: absolute;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -2628,20 +2611,21 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2rem 2rem 0;
+			margin: 0 1rem 1rem 0;
 			top: 0.75rem;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 2rem 2rem;
+			margin: 0 0 1rem 1rem;
 			top: 0.75rem;
 		}
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: 1rem auto;
+			width: 55%;
+
 		}
 
 			.image.fit:first-child {
@@ -2669,11 +2653,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
-				margin: 2rem 0;
+				margin: 1rem 0;
 			}
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 1rem 0;
 			}
 
 		}
